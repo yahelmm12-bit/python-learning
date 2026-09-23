@@ -5,7 +5,7 @@ tries = 3
 while tries > 0:
     entered_password = str(input("Please, enter the password: "))
     if entered_password == correct_password:
-        print("Acces granted!")
+        print("Access granted!")
         break
     else:
         tries -= 1
