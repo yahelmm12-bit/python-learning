@@ -10,7 +10,7 @@ counter = 0
 numbers = [12, 5, 18, 7, 20, 3, 15, 9, 22, 6]
 numbers.sort(reverse=True)
 print(numbers[0])
-numbers.sort
+numbers.sort()
 print(numbers[0])
 for number in numbers:
     if number > 10:
